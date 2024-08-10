@@ -1,0 +1,47 @@
+/* ********************************************HomePage************************************************** */
+.home-page{
+  background-color: #f9fafb;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ***********************************************Chatbox************************************************ */
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chat-box .chat-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-box .speaker-name {
+    flex: 3; /* 3 parts of the screen */
+    font-weight: bold;
+  }
+  
+  .chat-box .chat-text {
+    flex: 7; /* 7 parts of the screen */
+    margin: 0 10px;
+  }
+  
+  .text-to-speech {
+    flex: 1; /* Remaining space for the button */
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
