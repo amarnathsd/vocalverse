@@ -57,3 +57,5 @@ Start the development server by npm start.
 
 4. Text-to-Speech (TTS) Integration
   Triggering TTS: Each dialogue in the chatbox has a "Play Audio" button. Which will call a Text To Speech API with given input of line text and for that text audio will be generated.
+
+5. If Text of speech has edited have re click on the Play audio buttton to regenerate the audio.
